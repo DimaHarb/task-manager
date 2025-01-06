@@ -1,0 +1,19 @@
+.logs-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .log-group {
+    margin-bottom: 20px;
+  }
+  
+  .log-group h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .log-group p {
+    font-size: 1.2em;
+    margin-left: 20px;
+  }
+  

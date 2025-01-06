@@ -1,0 +1,36 @@
+.task {
+  border: 1px solid black;
+  padding: 5px 20px;
+  margin: 15px 0;
+  height: 130px;
+  background-color: #fff; 
+  position: relative; 
+  font-family: Arial, sans-serif; 
+}
+
+.tag {
+  position: absolute; 
+  top: -1px;
+  right: -1px; 
+  background-color: var(--tag-color, #ddd); 
+  color: black; 
+  padding: 2px 0; 
+  width: 100px;
+  font-size: 16px; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  border: 2px solid var(--tag-border-color, #aaa); 
+  z-index: 10;
+}
+
+
+.task-title {
+  font-size: 16px; 
+  margin: 30px 0 5px 0; 
+}
+
+.task-description {
+  font-size: 16px; 
+  margin: 10px 0;
+}

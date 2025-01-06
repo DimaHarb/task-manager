@@ -1,0 +1,5 @@
+.create-button{
+    z-index: 200;
+    margin: 0 -1px -1px -1px !important;
+    width: calc(100% + 2px);
+}

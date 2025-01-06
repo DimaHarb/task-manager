@@ -1,0 +1,92 @@
+.create-tag-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.create-tag-modal-content {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid black;
+  width: 500px; 
+  max-width: 85%; 
+  box-shadow: none;
+  position: relative;
+}
+
+.create-tag-close {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.create-tag-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 20px; 
+}
+
+.create-tag-input,
+.create-tag-color-picker {
+  width: 85%;
+  font-size: 14px;
+  border: 1px solid black;
+  border-radius: 0;
+  background-color: white;
+  box-sizing: border-box; 
+  color: black; 
+  text-align: center; 
+  height: 60px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  appearance: none; 
+  resize: none; 
+  overflow: hidden; 
+}
+
+.create-tag-input::placeholder,
+.create-tag-textarea::placeholder {
+  color: black; 
+  opacity: 1; 
+}
+
+.create-tag-textarea {
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  resize: none; 
+  height: 60px; 
+  overflow: hidden; 
+  padding: 0; 
+}
+
+
+.create-tag-button {
+  background-color: #dce6f9; 
+  color: black;
+  cursor: pointer;
+  width: auto; 
+  align-self: flex-end; 
+  padding: 10px 30px; 
+  border: 1px solid #a3b9d7; 
+}
+
+.create-tag-button:hover {
+  background-color: #cbdcf4; 
+  border: 1px solid #8aa7c8;
+}
+
+
