@@ -7,7 +7,7 @@ A full-stack task management application built with **React**, **Express**, and 
 
 Here is a quick demo of the application in action:
 
-[Click here to watch the demo](./frontend/public/video/demo.mp4)
+[Click here to download the demo video](./frontend/public/video/demo.mp4)
 
 ## Features
 
